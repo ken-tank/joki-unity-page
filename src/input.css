@@ -2,10 +2,10 @@
 
 @layer base {
     html {
-        @apply size-full;
+        @apply size-full flex justify-center;
     }
     body {
-        @apply bg-gray-900 size-full text-gray-400;
+        @apply bg-gray-900 h-screen xl:w-7xl text-gray-400;
     }
     ul {
         @apply list-disc pl-5;

@@ -2,7 +2,7 @@ class Downloader {
     static async Download(key, value)
     {
         var decrypted = "";
-        await EncryptorSHA256.decrypt(value, key, "unity").then(value => {
+        await EncryptorSHA256.decrypt(value, key.trim(), "unity").then(value => {
             decrypted = value;
         });
         if (decrypted == "")
