@@ -1,4 +1,4 @@
-fetch('/Components/ads_card.html')
+fetch('/joki-unity-page/Components/ads_card.html')
 .then(res => res.text())
 .then(data => {
     const adsCard = document.getElementById('ads-card');
