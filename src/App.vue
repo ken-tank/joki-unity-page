@@ -1,47 +1,26 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+  <div class="card flex justify-center">
+        <Button label="Show" @click="visible = true" />
+        <Dialog v-model:visible="visible" modal header="Edit Profile" :style="{ width: '25rem' }">
+            <span class="text-surface-500 dark:text-surface-400 block mb-8">Update your information.</span>
+            <div class="flex items-center gap-4 mb-4">
+                <label for="username" class="font-semibold w-24">Username</label>
+                <InputText id="username" class="flex-auto" autocomplete="off" />
+            </div>
+            <div class="flex items-center gap-4 mb-8">
+                <label for="email" class="font-semibold w-24">Email</label>
+                <InputText id="email" class="flex-auto" autocomplete="off" />
+            </div>
+            <div class="flex justify-end gap-2">
+                <Button type="button" label="Cancel" severity="secondary" @click="visible = false"></Button>
+                <Button type="button" label="Save" @click="visible = false"></Button>
+            </div>
+        </Dialog>
     </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
+<script setup>
+import { Button, Dialog, InputText } from "primevue";
+import { ref } from "vue";
+const visible = ref(false);
+</script>
