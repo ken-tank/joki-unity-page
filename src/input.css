@@ -22,8 +22,14 @@
     .card > h1 {
         @apply font-semibold text-gray-300;
     }
+    .card-link {
+        @apply duration-200 hover:border-green-800 cursor-pointer;
+    }
     .link {
         @apply text-green-400 cursor-pointer duration-200 hover:text-green-300 hover:font-medium;
+    }
+    .link-nohover {
+        @apply text-green-400 cursor-pointer duration-200;
     }
     .important {
         @apply text-yellow-300;

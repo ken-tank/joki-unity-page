@@ -1,0 +1,12 @@
+<a href="{{ path }}" class="card card-link group">
+    <h1>{{ name }}</h1>
+    <div class="flex flex-row not-xl:flex-col xl:justify-between gap-2">
+        <p class="grow shrink-0">{{ description }}</p>
+        <div class="xl:w-[200px] not-xl:w-full shrink-0 xl:group-hover:w-[400px] duration-200">
+            <img src="{{ thumbnail }}" class="size-full object-contain">
+        </div>
+    </div>
+    <div class="flex flex-row-reverse">
+        <span class="link-nohover group-hover:text-green-300 font-medium">Selengkapnya ></span>
+    </div>
+</a>
