@@ -3,14 +3,16 @@
         {
             "id": "miyakojima",
             "name": "Miyakojima Galery Tour",
-            "description": "-",
+            "platform": ["Windows", "MacOS", "Linux", "Android", "WebGL"],
+            "description": "Virtual Tour Museum / Galeri Wisata pulau Miyakojima berbasis Web",
             "thumbnail": "https://i.ytimg.com/an_webp/iqRKqUz6t8Q/mqdefault_6s.webp?du=3000&sqp=CITS178G&rs=AOn4CLD4d8rPz6H6WJTfw7STttFsVd47HQ",
             "path": "./miyakojima/"
         },
         {
             "id": "tugas-dasar-2",
             "name": "Tugas Dasar Unity",
-            "description": "-",
+            "platform": ["Windows", "MacOS", "Linux"],
+            "description": "Tugas Dasar menggunakan primitive objek dan simple action berupa move sebagai tugas nya",
             "thumbnail": "https://i.ytimg.com/an_webp/nO45ztZBeq0/mqdefault_6s.webp?du=3000&sqp=CMLm178G&rs=AOn4CLBK7hu58i8EEIBgFg3tMbLRk0WWLg",
             "path": "./tugas-dasar-2/"
         }
