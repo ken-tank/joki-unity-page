@@ -15,6 +15,14 @@
             "description": "Tugas Dasar menggunakan primitive objek dan simple action berupa move sebagai tugas nya",
             "thumbnail": "https://i.ytimg.com/an_webp/nO45ztZBeq0/mqdefault_6s.webp?du=3000&sqp=CMLm178G&rs=AOn4CLBK7hu58i8EEIBgFg3tMbLRk0WWLg",
             "path": "./tugas-dasar-2/"
+        },
+        {
+            "id": "tumpeng-gizi-seimbang",
+            "name": "Tumpeng Gizi Seimbang",
+            "platform": ["Windows", "Linux", "Android"],
+            "description": "Tumpeng Gizi Seimbang adalah panduan makan sehat dari Kemenkes RI sebagai penyempurnaan \"4 Sehat 5 Sempurna\", berbentuk kerucut untuk menggambarkan proporsi dan keseimbangan konsumsi makanan harian.",
+            "thumbnail": "https://i.ytimg.com/an_webp/nO45ztZBeq0/mqdefault_6s.webp?du=3000&sqp=CMLm178G&rs=AOn4CLBK7hu58i8EEIBgFg3tMbLRk0WWLg",
+            "path": "./tumpeng-gizi-seimbang/"
         }
     ]
 }

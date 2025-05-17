@@ -49,4 +49,8 @@
     .button {
         @apply cursor-pointer border border-green-600 hover:border-green-500 bg-green-700 px-3 py-1 text-green-300 hover:text-green-200 duration-200;
     }
+    .mytable td, 
+    .mytable th {
+        @apply align-top;
+    }
 }
