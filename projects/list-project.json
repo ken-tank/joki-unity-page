@@ -28,7 +28,7 @@
             "id": "ar-edukids",
             "name": "AR EduKids",
             "platform": ["Windows", "Linux", "Android"],
-            "description": "Tumpeng Gizi Seimbang adalah panduan makan sehat dari Kemenkes RI sebagai penyempurnaan \"4 Sehat 5 Sempurna\", berbentuk kerucut untuk menggambarkan proporsi dan keseimbangan konsumsi makanan harian.",
+            "description": "-",
             "thumbnail": "https://i.ytimg.com/an_webp/nO45ztZBeq0/mqdefault_6s.webp?du=3000&sqp=CMLm178G&rs=AOn4CLBK7hu58i8EEIBgFg3tMbLRk0WWLg",
             "path": "./ar-edukids/"
         }
