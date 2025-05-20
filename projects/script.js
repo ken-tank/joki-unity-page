@@ -6,3 +6,9 @@ fetch('/joki-unity-page/Components/ads_card.html')
         adsCard.innerHTML = data;
     }
 });
+
+document.getElementById("download_key").addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+      Unlock();
+    }
+});
