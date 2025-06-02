@@ -31,6 +31,14 @@
             "description": "-",
             "thumbnail": "https://i.ytimg.com/an_webp/nO45ztZBeq0/mqdefault_6s.webp?du=3000&sqp=CMLm178G&rs=AOn4CLBK7hu58i8EEIBgFg3tMbLRk0WWLg",
             "path": "./ar-edukids/"
+        },
+        {
+            "id": "virtual-tour-bahaya-rokok",
+            "name": "Virtual Tour Bahaya Rokok",
+            "platform": ["Windows", "Linux", "Android"],
+            "description": "-",
+            "thumbnail": "https://i.ytimg.com/an_webp/nO45ztZBeq0/mqdefault_6s.webp?du=3000&sqp=CMLm178G&rs=AOn4CLBK7hu58i8EEIBgFg3tMbLRk0WWLg",
+            "path": "./virtual-tour-bahaya-rokok/"
         }
     ]
 }

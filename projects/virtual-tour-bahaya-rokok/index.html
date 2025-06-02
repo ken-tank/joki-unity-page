@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <base href="/joki-unity-page/projects/virtual-tour-bahaya-rokok/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panduan Project</title>
+    <link rel="stylesheet" href="/joki-unity-page/src/output.css">
+    <script src="/joki-unity-page/src/crypto.js"></script>
+    <script src="script.js"></script>
+    <script src="/joki-unity-page/projects/downloader.js"></script>
+</head>
+<body class="flex xl:flex-row flex-col justify-betwee">
+    <div class="flex flex-col flex-grow xl:overflow-y-auto gap-3 p-3">
+        <div class="card">
+            <h1>Profil Project</h1>
+            <table class="table-auto border-separate border-spacing-y-2 mytable">
+                <thead>
+                    <th class="w-32"></th>
+                    <th class="w-2"></th>
+                    <th></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nama</td>
+                        <td>:</td>
+                        <td>Virtual Tour Bahaya Rokok</td>
+                    </tr>
+                    <tr>
+                        <td>Deskripsi</td>
+                        <td>:</td>
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Target Platform</td>
+                        <td>:</td>
+                        <td>
+                            Android, WebGL
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="card">
+            <h1>Video Demo</h1>
+            <div class="embed_video">
+                <iframe
+                    src="https://www.youtube.com/embed/E7ClZGyESUQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="card">
+            <h1>Cara Publish untuk WebGL via <a class="link" href="https://www.itch.io/" target="_blank">Itch.io</a> <span class="important">(Paling disarankan)</span></h1>
+            <div>
+                <ul>
+                    <li>Persiapkan File Gamenya untuk Upload</li>
+                    <li>Masuk atau Buat akun baru</li>
+                    <li>Buka Dashboard, lalu klik Create new project</li>
+                    <li>Isi detail game</li>
+                    <li>Di bagian Uploads, klik Upload files, lalu pilih file .zip yang sudah dibuat</li>
+                    <li>Centang opsi "This file will be played in the browser"</li>
+                    <li>Pilih HTML sebagai format permainan</li>
+                    <li>Scroll ke bawah dan klik Save & view page</li>
+                    <li>Jika sudah siap untuk dipublikasikan, klik tombol Publish</li>
+                    <li>(Opsional) Sesuaikan Ukuran Game</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h1>Cara Publish untuk WebGL via <a class="link" href="https://github.com/" target="_blank">github page</a></h1>
+            <div>
+                <ul>
+                    <li>Persiapkan File Gamenya untuk Upload</li>
+                    <li>Masuk atau Buat akun baru</li>
+                    <li>Klik New repository</li>
+                    <li>Beri nama (misalnya: MyWebGLGame)</li>
+                    <li>Pilih Public agar bisa diakses orang lain</li>
+                    <li>Klik Create repository</li>
+                    <li>Klik Add file → Upload files</li>
+                    <li>Klik Commit changes</li>
+                    <li>Di bagian Branch, pilih main atau master dan pastikan root folder (/)</li>
+                    <li>Klik Save</li>
+                    <li>Tunggu beberapa menit, lalu cek URL <span class="link">https://[username].github.io/MyWebGLGame/</span></li>
+                    <li>sesuaikan dengan username akun yg telah di buat</li>
+                </ul>
+            </div>
+            <div class="warning">
+                <span>Warning:</span>
+                <p>Jika memakai metode Github, saat membuka game nya dengan Smartphone, usahakan rotasi dulu layarnya ke posisi Landscape / Mendatar, agar layout controler sesuai posisinya</p>
+            </div>
+        </div>
+        <div class="card" id="ads-card">
+            <!-- ads_card.html -->
+        </div>
+        <div class="card items-center">
+            <span>⭐ Jasa Pembuatan Game/AR/VR untuk tugas kuliah paling murah se-Indonesia ⭐</span>
+            <span>Sudah beroprasi dan terpercaya secara amanah sejak 2021</span>
+        </div>
+    </div>
+    <div class="flex flex-col shrink-0 xl:w-[500px] xl:overflow-y-auto gap-3 p-3">
+        <div class="card">
+            <h1>Persyaratan Software</h1>
+            <p>Pastikan Untuk Menginstal syarat2 di bawah ini terlebih dahulu sebelum membuka project</p>
+            <div>
+                <ul>
+                    <li class="important">
+                        koneksi Internet (Wajib)
+                    </li>
+                    <li>
+                        <a class="link" href="https://unity.com/download" target="_blank">
+                            Unity 6.1
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="https://7-zip.org/download.html" target="_blank">
+                            7zip
+                        </a>
+                    </li>
+                    <li hidden>
+                        <a class="link" href="https://www.fmod.com/download#fmodstudio" target="_blank">
+                            FMOD Studio 2.03
+                        </a>
+                        (Jika ingin Edit Audio)
+                    </li>
+                    <li hidden>
+                        <a class="link" href="https://git-scm.com/downloads/win" target="_blank">
+                            git command line
+                        </a>
+                        (Wajib)
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h1>Persyaratan Hardware Editor</h1>
+            <div class="flex flex-row justify-between gap-5">
+                <div class="flex flex-col flex-grow basis-1/2 gap-1">
+                    <span class="border-b border-gray-500">Minimum:</span>
+                    <ul>
+                        <li>OS: Windows 7 (x64)</li>
+                        <li>CPU: Intel i3 gen7 / Ryzen3 2000</li>
+                        <li>RAM: 8GB</li>
+                        <li>VGA: Intel HD / Radeon Vega</li>
+                    </ul>
+                </div>
+                <div class="flex flex-col flex-grow basis-1/2 gap-1">
+                    <span class="border-b border-gray-500">Rekomendasi:</span>
+                    <ul>
+                        <li>OS: Windows 11 (x64)</li>
+                        <li>CPU: Intel i5 gen10 / Ryzen5 5000 series</li>
+                        <li>RAM: 16GB</li>
+                        <li>VGA: GTX1660 Super</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card" hidden>
+            <h1>Persyaratan Hardware Player</h1>
+            <div class="flex flex-row justify-between gap-5">
+                <div class="flex flex-col flex-grow basis-1/2 gap-1">
+                    <span class="border-b border-gray-500">Minimum:</span>
+                    <ul>
+                        <li>Web Android</li>
+                        <li>Processor: Helio-G90</li>
+                        <li>RAM: 6GB</li>
+                    </ul>
+                </div>
+                <div class="flex flex-col flex-grow basis-1/2 gap-1">
+                    <span class="border-b border-gray-500">Rekomendasi:</span>
+                    <ul>
+                        <li>Web PC Dektop</li>
+                        <li>Processor: Ryzen5</li>
+                        <li>RAM: 8GB</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <h1>Cara Membuka Project</h1>
+            <div>
+                <ul>
+                    <li>Extract File 7z yang ada di folder Project</li>
+                    <li>Buka Unity Hub</li>
+                    <li>Klik Add</li>
+                    <li>Arahkan Ke Folder Hasil Extract Tadi</li>
+                    <li>Setelah Project Berhasil terbuka,</li>
+                    <li>Buka Folder Scene</li>
+                    <li>Klik 2x salah satu scene yang tersedia</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card gap-3">
+            <h1>Video Cara Membuka Project</h1>
+            <div class="embed_video">
+                <iframe src="https://www.youtube.com/embed/81OWZwSzVDY" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="warning">
+                <p>
+                    Pastikan menngunakan versi Unity sesuai project, agar tidak terjadi error saat mencoba membuka project <br>
+                    dan pastikan terhubung dengan koneksi internet untuk mendownload package yang di perlukan secara
+                    otomatis
+                    <br><br>
+                    *Hanya bisa di buka via Unity Hub, jika di copy paste sendiri, maka akan terjadi error karena
+                    dependecies yang di perlukan tidak dapat terinstall
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <h1>Penjelasan beberapa Folder di dalam Project:</h1>
+            <ul>
+                <li>
+                    <div>
+                        <span class="important">Data:</span>
+                        <p>Berisi File Mentah (Raw) yang akan di gunakan pada project</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <span class="important">Prefab:</span>
+                        <p>Berisi File Pre-Set yg sudah di konfigurasi </p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <span class="important">Scenes:</span>
+                        <p>Berisi Scene/level yang tersedia </p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <span class="important">Scripts:</span>
+                        <p>Berisi Script yg digunakan untuk project utama</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <span class="important">KenTank:</span>
+                        <p>Berisi Asset atau Tools pre-build yang telah saya kembangkan secara pribadi</p>
+                        <p>boleh di rename dengan nama sendiri <span class="optional">(jika perlu)</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <span class="important">External Assets: <span class="optional">(Jika Ada)</span></span>
+                        <p>
+                            Berisi External Asset dari luar seperti GitHub, Asset Store, dan lainnya. <br>
+                            bisa digunakan sebagai sumber atau referensi untuk laporan <br>
+                            <span class="warning-nobox">Jangan di perjual belikan untuk di bagian ini, krn lisensi di lindungi hukum Internasional</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <span class="important">FMOD: <span class="optional">(Jika Ada)</span></span>
+                        <p>
+                            Berisi Project Third-Party untuk Audio Studio yg terhubung secara langsung dengan Unity, <br> 
+                            tujuan nya agar suara yg di hasilkan lebih baik dari pada Audio bawaan Unity nya <br>
+                            <span class="warning-nobox">memerlukan pemahaman teknis tentang audio softwaring untuk edit file ini</span>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <span class="warning">
+                Kusus untuk folder yang bernama "Resources", <br>
+                jangan pernah sentuh folder ini, folder ini berisi file yang semuanya saling terhubung satu sama lain menggunakan path,
+                <br>
+                jika ada satu file saja yang hilang atau berpindah, game atau bahkan Unitynya akan error
+            </span>
+        </div>
+        <div class="card">
+            <h1>Untuk cara Update Project: <span class="optional"></span></h1>
+            <ul>
+                <li>Download file Update</li>
+                <li>Buka Unity Project sebelumnya</li>
+                <li>Klik Assets > Import Package > Custom Package > File Update (contoh Update 1.1.unitypackage)</li>
+                <li>dan Klik Import</li>
+            </ul>
+            <span class="warning">
+                untuk update, pastika di lakukan secara urut versi <br>
+                contohnya, sebelum update versi 1.2, harus sudah update dulu ke 1.1 projectnya, <br>
+                jika tidak di lakukan secara urut, nanti file nya akan tidak sinkron antara file baru ama
+                file lama yang menyebabkan error
+            </span>
+        </div>
+        <div class="card border-green-400">
+            <h1>Download Source Code</h1>
+            <p>Silahkan Dowload Source Codenya dengan klik Tombol di bawah ini, dengan key yang telah kami berikan sebelumnya</p>
+            <div class="flex flex-row not-sm:justify-between md:w-[300px]">
+                <div class="border border-gray-500 flex flex-row items-center p-1 grow">
+                    <input type="text" name="download_key" id="download_key" placeholder="Unlock Key" class="outline-none size-full">
+                </div>
+                <button onclick="Unlock()" class="button">Download</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/joki-unity-page/projects/script.js"></script>
+</html>

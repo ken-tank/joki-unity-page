@@ -40,6 +40,9 @@
     .warning {
         @apply text-red-600 bg-gray-900 p-3 border border-gray-700 max-h-40 overflow-y-auto;
     }
+    .warning-nobox {
+        @apply text-red-600;
+    }
     .embed_video {
         @apply relative w-full pb-[56.25%] h-0;
     }
