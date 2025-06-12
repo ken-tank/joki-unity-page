@@ -49,6 +49,14 @@
             "description": "",
             "thumbnail": "",
             "path": "./web-interactive-megalitikum/"
+        },
+        {
+            "id": "sailormun",
+            "name": "Sailormoon",
+            "platform": ["Windows", "Linux", "WebGL"],
+            "description": "",
+            "thumbnail": "",
+            "path": "./sailormun/"
         }
     ]
 }
