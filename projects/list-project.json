@@ -57,6 +57,14 @@
             "description": "",
             "thumbnail": "",
             "path": "./sailormun/"
+        },
+        {
+            "id": "quiz-hunt-ftik",
+            "name": "Quiz Hunt FTIK",
+            "platform": ["Windows", "Linux", "WebGL", "Android"],
+            "description": "",
+            "thumbnail": "",
+            "path": "./quiz-hunt-ftik/"
         }
     ]
 }
