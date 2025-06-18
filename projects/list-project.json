@@ -65,6 +65,14 @@
             "description": "",
             "thumbnail": "",
             "path": "./quiz-hunt-ftik/"
+        },
+        {
+            "id": "king-lost",
+            "name": "King Lost",
+            "platform": ["Windows", "Linux", "WebGL"],
+            "description": "",
+            "thumbnail": "",
+            "path": "./king-lost/"
         }
     ]
 }
