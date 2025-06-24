@@ -73,6 +73,14 @@
             "description": "",
             "thumbnail": "",
             "path": "./king-lost/"
+        },
+        {
+            "id": "market-rush",
+            "name": "Market Rush",
+            "platform": ["Windows", "Linux", "WebGL"],
+            "description": "",
+            "thumbnail": "https://img.youtube.com/vi/6lqq4SeEB1c/mqdefault.jpg",
+            "path": "./market-rush/"
         }
     ]
 }
