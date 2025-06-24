@@ -71,7 +71,7 @@
             "name": "King Lost",
             "platform": ["Windows", "Linux", "WebGL"],
             "description": "",
-            "thumbnail": "",
+            "thumbnail": "https://img.youtube.com/vi/Y-bZHkUoD-Q/maxresdefault.jpg",
             "path": "./king-lost/"
         },
         {
@@ -79,7 +79,7 @@
             "name": "Market Rush",
             "platform": ["Windows", "Linux", "WebGL"],
             "description": "",
-            "thumbnail": "https://img.youtube.com/vi/6lqq4SeEB1c/mqdefault.jpg",
+            "thumbnail": "https://img.youtube.com/vi/6lqq4SeEB1c/maxresdefault.jpg",
             "path": "./market-rush/"
         }
     ]
