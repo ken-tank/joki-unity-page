@@ -82,5 +82,15 @@
             "thumbnail": "https://img.youtube.com/vi/6lqq4SeEB1c/maxresdefault.jpg",
             "path": "./market-rush/"
         }
+    ],
+    "page3": [
+        {
+            "id": "where's-my-toast",
+            "name": "Where's My Toast",
+            "platform": ["Windows", "Linux", "WebGL"],
+            "description": "",
+            "thumbnail": "https://img.youtube.com/vi/z5Dg9smMxDQ/maxresdefault.jpg",
+            "path": "./where's-my-toast/"
+        }
     ]
 }
