@@ -91,6 +91,14 @@
             "description": "",
             "thumbnail": "https://img.youtube.com/vi/z5Dg9smMxDQ/maxresdefault.jpg",
             "path": "./where's-my-toast/"
+        },
+        {
+            "id": "curious-gho-gho",
+            "name": "Curious gho gho",
+            "platform": ["Windows", "Linux", "WebGL"],
+            "description": "",
+            "thumbnail": "https://img.youtube.com/vi/WRgD9_78kOM/maxresdefault.jpg",
+            "path": "./curious-gho-gho/"
         }
     ]
 }
