@@ -1,104 +1,131 @@
-{
-    "page1": [
-        {
-            "id": "miyakojima",
-            "name": "Miyakojima Galery Tour",
-            "platform": ["Windows", "Linux", "Android", "WebGL"],
-            "description": "Virtual Tour Museum / Galeri Wisata pulau Miyakojima berbasis Web",
-            "thumbnail": "https://i.ytimg.com/an_webp/iqRKqUz6t8Q/mqdefault_6s.webp?du=3000&sqp=CITS178G&rs=AOn4CLD4d8rPz6H6WJTfw7STttFsVd47HQ",
-            "path": "./miyakojima/"
-        },
-        {
-            "id": "tugas-dasar-2",
-            "name": "Tugas Dasar Unity",
-            "platform": ["Windows", "Linux"],
-            "description": "Tugas Dasar menggunakan primitive objek dan simple action berupa move sebagai tugas nya",
-            "thumbnail": "https://i.ytimg.com/an_webp/nO45ztZBeq0/mqdefault_6s.webp?du=3000&sqp=CMLm178G&rs=AOn4CLBK7hu58i8EEIBgFg3tMbLRk0WWLg",
-            "path": "./tugas-dasar-2/"
-        },
-        {
-            "id": "tumpeng-gizi-seimbang",
-            "name": "Tumpeng Gizi Seimbang",
-            "platform": ["Windows", "Linux", "Android"],
-            "description": "Tumpeng Gizi Seimbang adalah panduan makan sehat dari Kemenkes RI sebagai penyempurnaan \"4 Sehat 5 Sempurna\", berbentuk kerucut untuk menggambarkan proporsi dan keseimbangan konsumsi makanan harian.",
-            "thumbnail": "https://i.ytimg.com/an_webp/nO45ztZBeq0/mqdefault_6s.webp?du=3000&sqp=CMLm178G&rs=AOn4CLBK7hu58i8EEIBgFg3tMbLRk0WWLg",
-            "path": "./tumpeng-gizi-seimbang/"
-        },
-        {
-            "id": "ar-edukids",
-            "name": "AR EduKids",
-            "platform": ["Windows", "Linux", "Android"],
-            "description": "-",
-            "thumbnail": "https://i.ytimg.com/an_webp/nO45ztZBeq0/mqdefault_6s.webp?du=3000&sqp=CMLm178G&rs=AOn4CLBK7hu58i8EEIBgFg3tMbLRk0WWLg",
-            "path": "./ar-edukids/"
-        },
-        {
-            "id": "virtual-tour-bahaya-rokok",
-            "name": "Virtual Tour Bahaya Rokok",
-            "platform": ["Windows", "Linux", "Android"],
-            "description": "-",
-            "thumbnail": "https://i.ytimg.com/an_webp/nO45ztZBeq0/mqdefault_6s.webp?du=3000&sqp=CMLm178G&rs=AOn4CLBK7hu58i8EEIBgFg3tMbLRk0WWLg",
-            "path": "./virtual-tour-bahaya-rokok/"
-        }
-    ],
-    "page2": [
-        {
-            "id": "web-interactive-megalitikum",
-            "name": "Web Interactive Megalitikum",
-            "platform": ["Windows", "Linux", "WebGL"],
-            "description": "",
-            "thumbnail": "",
-            "path": "./web-interactive-megalitikum/"
-        },
-        {
-            "id": "sailormun",
-            "name": "Sailormoon",
-            "platform": ["Windows", "Linux", "WebGL"],
-            "description": "",
-            "thumbnail": "",
-            "path": "./sailormun/"
-        },
-        {
-            "id": "quiz-hunt-ftik",
-            "name": "Quiz Hunt FTIK",
-            "platform": ["Windows", "Linux", "WebGL", "Android"],
-            "description": "",
-            "thumbnail": "",
-            "path": "./quiz-hunt-ftik/"
-        },
-        {
-            "id": "king-lost",
-            "name": "King Lost",
-            "platform": ["Windows", "Linux", "WebGL"],
-            "description": "",
-            "thumbnail": "https://img.youtube.com/vi/Y-bZHkUoD-Q/maxresdefault.jpg",
-            "path": "./king-lost/"
-        },
-        {
-            "id": "market-rush",
-            "name": "Market Rush",
-            "platform": ["Windows", "Linux", "WebGL"],
-            "description": "",
-            "thumbnail": "https://img.youtube.com/vi/6lqq4SeEB1c/maxresdefault.jpg",
-            "path": "./market-rush/"
-        }
-    ],
-    "page3": [
-        {
-            "id": "where's-my-toast",
-            "name": "Where's My Toast",
-            "platform": ["Windows", "Linux", "WebGL"],
-            "description": "",
-            "thumbnail": "https://img.youtube.com/vi/z5Dg9smMxDQ/maxresdefault.jpg",
-            "path": "./where's-my-toast/"
-        },
-        {
-            "id": "curious-gho-gho",
-            "name": "Curious gho gho",
-            "platform": ["Windows", "Linux", "WebGL"],
-            "description": "",
-            "thumbnail": "https://img.youtube.com/vi/WRgD9_78kOM/maxresdefault.jpg",
-            "path": "./curious-gho-gho/"
-        }
-    ]
-}
+[
+    {
+        "id": "miyakojima",
+        "name": "Miyakojima Galery Tour",
+        "platform": ["Windows", "Linux", "Android", "WebGL"],
+        "target-platform": [],
+        "input-control": [],
+        "description": "Virtual Tour Museum / Galeri Wisata pulau Miyakojima berbasis Web",
+        "thumbnail": "https://i.ytimg.com/an_webp/iqRKqUz6t8Q/mqdefault_6s.webp?du=3000&sqp=CITS178G&rs=AOn4CLD4d8rPz6H6WJTfw7STttFsVd47HQ",
+        "path": "./miyakojima/"
+    },
+    {
+        "id": "tugas-dasar-2",
+        "name": "Tugas Dasar Unity",
+        "platform": ["Windows", "Linux"],
+        "target-platform": [],
+        "input-control": [],
+        "description": "Tugas Dasar menggunakan primitive objek dan simple action berupa move sebagai tugas nya",
+        "thumbnail": "https://i.ytimg.com/an_webp/nO45ztZBeq0/mqdefault_6s.webp?du=3000&sqp=CMLm178G&rs=AOn4CLBK7hu58i8EEIBgFg3tMbLRk0WWLg",
+        "path": "./tugas-dasar-2/"
+    },
+    {
+        "id": "tumpeng-gizi-seimbang",
+        "name": "Tumpeng Gizi Seimbang",
+        "platform": ["Windows", "Linux", "Android"],
+        "target-platform": [],
+        "input-control": [],
+        "description": "Tumpeng Gizi Seimbang adalah panduan makan sehat dari Kemenkes RI sebagai penyempurnaan \"4 Sehat 5 Sempurna\", berbentuk kerucut untuk menggambarkan proporsi dan keseimbangan konsumsi makanan harian.",
+        "thumbnail": "https://i.ytimg.com/an_webp/nO45ztZBeq0/mqdefault_6s.webp?du=3000&sqp=CMLm178G&rs=AOn4CLBK7hu58i8EEIBgFg3tMbLRk0WWLg",
+        "path": "./tumpeng-gizi-seimbang/"
+    },
+    {
+        "id": "ar-edukids",
+        "name": "AR EduKids",
+        "platform": ["Windows", "Linux", "Android"],
+        "target-platform": [],
+        "input-control": [],
+        "description": "-",
+        "thumbnail": "https://i.ytimg.com/an_webp/nO45ztZBeq0/mqdefault_6s.webp?du=3000&sqp=CMLm178G&rs=AOn4CLBK7hu58i8EEIBgFg3tMbLRk0WWLg",
+        "path": "./ar-edukids/"
+    },
+    {
+        "id": "virtual-tour-bahaya-rokok",
+        "name": "Virtual Tour Bahaya Rokok",
+        "platform": ["Windows", "Linux", "Android"],
+        "target-platform": [],
+        "input-control": [],
+        "description": "-",
+        "thumbnail": "https://i.ytimg.com/an_webp/nO45ztZBeq0/mqdefault_6s.webp?du=3000&sqp=CMLm178G&rs=AOn4CLBK7hu58i8EEIBgFg3tMbLRk0WWLg",
+        "path": "./virtual-tour-bahaya-rokok/"
+    },
+    {
+        "id": "web-interactive-megalitikum",
+        "name": "Web Interactive Megalitikum",
+        "platform": ["Windows", "Linux", "WebGL"],
+        "target-platform": [],
+        "input-control": [],
+        "description": "",
+        "thumbnail": "",
+        "path": "./web-interactive-megalitikum/"
+    },
+    {
+        "id": "sailormun",
+        "name": "Sailormoon",
+        "platform": ["Windows", "Linux", "WebGL"],
+        "target-platform": [],
+        "input-control": [],
+        "description": "",
+        "thumbnail": "",
+        "path": "./sailormun/"
+    },
+    {
+        "id": "quiz-hunt-ftik",
+        "name": "Quiz Hunt FTIK",
+        "platform": ["Windows", "Linux", "WebGL", "Android"],
+        "target-platform": [],
+        "input-control": [],
+        "description": "",
+        "thumbnail": "",
+        "path": "./quiz-hunt-ftik/"
+    },
+    {
+        "id": "king-lost",
+        "name": "King Lost",
+        "platform": ["Windows", "Linux", "WebGL"],
+        "target-platform": [],
+        "input-control": [],
+        "description": "",
+        "thumbnail": "https://img.youtube.com/vi/Y-bZHkUoD-Q/maxresdefault.jpg",
+        "path": "./king-lost/"
+    },
+    {
+        "id": "market-rush",
+        "name": "Market Rush",
+        "platform": ["Windows", "Linux", "WebGL"],
+        "target-platform": [],
+        "description": "",
+        "thumbnail": "https://img.youtube.com/vi/6lqq4SeEB1c/maxresdefault.jpg",
+        "path": "./market-rush/"
+    },
+    {
+        "id": "where's-my-toast",
+        "name": "Where's My Toast",
+        "platform": ["Windows", "Linux", "WebGL"],
+        "target-platform": [],
+        "input-control": [],
+        "description": "",
+        "thumbnail": "https://img.youtube.com/vi/z5Dg9smMxDQ/maxresdefault.jpg",
+        "path": "./where's-my-toast/"
+    },
+    {
+        "id": "curious-gho-gho",
+        "name": "Curious gho gho",
+        "platform": ["Windows", "Linux", "WebGL"],
+        "target-platform": [],
+        "input-control": [],
+        "description": "",
+        "thumbnail": "https://img.youtube.com/vi/WRgD9_78kOM/maxresdefault.jpg",
+        "path": "./curious-gho-gho/"
+    },
+    {
+        "id": "visualisasi-data-banjir",
+        "name": "Visualisasi Data Banjir",
+        "platform": ["Windows", "Linux", "WebGL"],
+        "target-platform": ["Windows"],
+        "input-control": ["Keyboard", "Mouse"],
+        "description": "",
+        "thumbnail": "https://img.youtube.com/vi/pzhKX3SWtW4/maxresdefault.jpg",
+        "path": "./visualisasi-data-banjir/"
+    }
+]

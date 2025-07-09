@@ -8,6 +8,9 @@
     <link rel="icon" href="/joki-unity-page/src/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="/joki-unity-page/src/output.css">
     <script src="/joki-unity-page/projects/projects-script.js"></script>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
 </head>
 <body>
     <div class="py-3 flex flex-col min-h-screen gap-3">
@@ -21,15 +24,9 @@
             <div class="flex flex-col shrink-0 lg:w-[400px] gap-3">
                 <div class="card">
                     <h1>Pages</h1>
-                    <ul>
+                    <ul id="page">
                         <li>
-                            <span class="link" onclick="ShowPage('page1')">Page 1</span>
-                        </li>
-                        <li>
-                            <span class="link" onclick="ShowPage('page2')">Page 2</span>
-                        </li>
-                        <li>
-                            <span class="link" onclick="ShowPage('page3')">Page 3</span>
+                            <span class="link">Page {index}</span>
                         </li>
                     </ul>
                 </div>
@@ -37,5 +34,5 @@
         </div>
     </div>
 </body>
-<script>ShowPage('page1')</script>
+<script></script>
 </html>

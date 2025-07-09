@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <base href="/joki-unity-page/projects/quiz-hunt-ftik/">
+    <base href="/joki-unity-page/projects/visualisasi-data-banjir/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panduan Project</title>
@@ -9,97 +9,59 @@
     <link rel="stylesheet" href="/joki-unity-page/src/output.css">
     <script src="/joki-unity-page/src/crypto.js"></script>
     <script src="script.js"></script>
-<script src="/joki-unity-page/projects/downloader.js"></script>
+    <script src="/joki-unity-page/projects/downloader.js"></script>
 
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     
-    <meta name="og:title" content="Quiz Hunt FTIK">
-    <meta name="og:url" content="https://www.youtube.com/watch?v=556kQ1a3ljk">
-    <meta name="og:image" content="https://img.youtube.com/vi/556kQ1a3ljk/mqdefault.jpg">
+    <meta name="id" content="visualisasi-data-banjir">
+    <meta name="og:title" content="Visualisasi Data Banjir">
+    <meta name="og:url" content="https://www.youtube.com/watch?v=pzhKX3SWtW4">
+    <meta name="og:image" content="https://img.youtube.com/vi/pzhKX3SWtW4/mqdefault.jpg">
 </head>
 <body class="flex xl:flex-row flex-col justify-betwee">
     <div class="flex flex-col flex-grow xl:overflow-y-auto gap-3 p-3">
-        <div class="card">
-            <h1>Profil Project</h1>
-            <table class="table-auto border-separate border-spacing-y-2 mytable">
-                <thead>
-                    <th class="w-32"></th>
-                    <th class="w-2"></th>
-                    <th></th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Nama</td>
-                        <td>:</td>
-                        <td>Quiz Hunt FTIK</td>
-                    </tr>
-                    <tr>
-                        <td>Deskripsi</td>
-                        <td>:</td>
-                        <td>
-                            -
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Target Platform</td>
-                        <td>:</td>
-                        <td>
-                            WebGL (Mobile)
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="card" id="profile_project">
+            <!-- profile_project.html -->
         </div>
         <div class="card">
             <h1>Video Demo</h1>
             <div class="embed_video">
                 <iframe
-                    src="https://www.youtube.com/embed/556kQ1a3ljk"
+                    src="https://www.youtube.com/embed/pzhKX3SWtW4"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
         <div class="card">
-            <h1>Cara Publish untuk WebGL via <a class="link" href="https://www.itch.io/" target="_blank">Itch.io</a> <span class="important">(Paling disarankan)</span></h1>
-            <div>
-                <ul>
-                    <li>Persiapkan File Gamenya untuk Upload</li>
-                    <li>Masuk atau Buat akun baru</li>
-                    <li>Buka Dashboard, lalu klik Create new project</li>
-                    <li>Isi detail game</li>
-                    <li>Di bagian Uploads, klik Upload files, lalu pilih file .zip yang sudah dibuat</li>
-                    <li>Centang opsi "This file will be played in the browser"</li>
-                    <li>Pilih HTML sebagai format permainan</li>
-                    <li>Scroll ke bawah dan klik Save & view page</li>
-                    <li>Jika sudah siap untuk dipublikasikan, klik tombol Publish</li>
-                    <li>(Opsional) Sesuaikan Ukuran Game</li>
-                </ul>
-            </div>
+            <h1>Cara Configurasi Akses Token</h1>
+            <span class="important">Dianjurkan Untuk mengganti Akses Token Cesium Terlebih dahulu</span>
+            <ul>
+                <li>Silahkan Buat Akun <a href="https://ion.cesium.com/" class="link">Cesium</a></li>
+                <li>Ikuti langkah-langkah nya hingga selesai</li>
+                <li>Pergi ke <a href="https://ion.cesium.com/tokens" class="link">Access Tokens</a></li>
+                <li>Klik pada Create token</li>
+                <li>Beri Nama</li>
+                <li>dan klik Create</li>
+                <li>Setelah itu Copy Token yg sudah di generate tadi</li>
+                <li>dan pergi ke lokasi folder <span class="important">/[Lokasi Aplikasi]/[NamaAplikasi]_Data/StreamingAssets/config.json</span></li>
+                <li>Ganti value <span class="important">cesium_token</span> dengan token yang baru saja di buat tadi</li>
+                <li>Save config.json nya</li>
+            </ul>
         </div>
         <div class="card">
-            <h1>Cara Publish untuk WebGL via <a class="link" href="https://github.com/" target="_blank">github page</a></h1>
-            <div>
-                <ul>
-                    <li>Persiapkan File Gamenya untuk Upload</li>
-                    <li>Masuk atau Buat akun baru</li>
-                    <li>Klik New repository</li>
-                    <li>Beri nama (misalnya: MyWebGLGame)</li>
-                    <li>Pilih Public agar bisa diakses orang lain</li>
-                    <li>Klik Create repository</li>
-                    <li>Klik Add file → Upload files</li>
-                    <li>Klik Commit changes</li>
-                    <li>Di bagian Branch, pilih main atau master dan pastikan root folder (/)</li>
-                    <li>Klik Save</li>
-                    <li>Tunggu beberapa menit, lalu cek URL <span class="link">https://[username].github.io/MyWebGLGame/</span></li>
-                    <li>sesuaikan dengan username akun yg telah di buat</li>
-                </ul>
-            </div>
-            <div hidden class="warning">
-                <span>Warning:</span>
-                <p>Jika memakai metode Github, saat membuka game nya dengan Smartphone, usahakan rotasi dulu layarnya ke posisi Landscape / Mendatar, agar layout controler sesuai posisinya</p>
+            <h1>Cara Modifikasi Data tanpa perlu Re-Build Project</h1>
+            <p>Karena data bersifat dinamis, anda bisa merubah data kapanpun itu secara lokal</p>
+            <span class="important">Dianjurkan Membuat backup terlebih dahulu sebelum memodifikasinya</span>
+            <ul>
+                <li>Masuk ke Folder Final Aplikasi</li>
+                <li>Pergi ke <span class="important">/[NamaAplikasi]_Data/StreamingAssets/</span></li>
+                <li>Modifikasi <span class="important">data.json</span> sesuai format</li>
+            </ul>
+            <div class="warning">
+                Pastikan data.json sesuai format key sebelumnya, jika key tidak sesuai, akan menyebabkan aplikasi crash atau tidak merespon data<br>
             </div>
         </div>
         <div class="card" id="ads-card">
@@ -135,7 +97,7 @@
                         </a>
                         (Jika ingin Edit Audio)
                     </li>
-                    <li>
+                    <li hidden>
                         <a class="link" href="https://git-scm.com/downloads/win" target="_blank">
                             git cli
                         </a>
