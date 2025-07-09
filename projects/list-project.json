@@ -121,7 +121,7 @@
     {
         "id": "visualisasi-data-banjir",
         "name": "Visualisasi Data Banjir",
-        "platform": ["Windows", "Linux", "WebGL"],
+        "platform": ["Windows", "Linux"],
         "target-platform": ["Windows"],
         "input-control": ["Keyboard", "Mouse"],
         "description": "",
