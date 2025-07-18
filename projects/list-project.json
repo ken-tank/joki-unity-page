@@ -127,5 +127,15 @@
         "description": "",
         "thumbnail": "https://img.youtube.com/vi/pzhKX3SWtW4/maxresdefault.jpg",
         "path": "./visualisasi-data-banjir/"
+    },
+    {
+        "id": "jejak-petualang-kuliner-nusantara",
+        "name": "Jejak Petualang Kuliner Nusantara",
+        "platform": ["Windows", "Linux"],
+        "target-platform": ["Windows"],
+        "input-control": ["Keyboard", "Mouse"],
+        "description": "",
+        "thumbnail": "https://img.youtube.com/vi/YgIKYjZKeEQ/maxresdefault.jpg",
+        "path": "./jejak-petualang-kuliner-nusantara/"
     }
 ]
