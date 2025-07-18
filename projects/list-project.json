@@ -132,7 +132,7 @@
         "id": "jejak-petualang-kuliner-nusantara",
         "name": "Jejak Petualang Kuliner Nusantara",
         "platform": ["Windows", "Linux"],
-        "target-platform": ["Windows"],
+        "target-platform": ["Editor Only"],
         "input-control": ["Keyboard", "Mouse"],
         "description": "",
         "thumbnail": "https://img.youtube.com/vi/YgIKYjZKeEQ/maxresdefault.jpg",
