@@ -137,15 +137,5 @@
         "description": "",
         "thumbnail": "https://img.youtube.com/vi/YgIKYjZKeEQ/maxresdefault.jpg",
         "path": "./jejak-petualang-kuliner-nusantara/"
-    },
-    {
-        "id": "cognitivie-puzzle",
-        "name": "SERIUS GAME PUZZLE AUTISM SPECTRUM DISORDER (ASD)",
-        "platform": ["Android", "Windows"],
-        "target-platform": ["Android"],
-        "input-control": ["Mouse", "Touchscreen"],
-        "description": "Serius Game yang dikembangkan dari alat ukur kognitif yaitu Cognitivie asessement system (2nd edition) berdasarkan teori PASS (Planning, Attention, Simultaneous, Successive) dalam melakukan intervensi kepada anak ASD.",
-        "thumbnail": "https://img.youtube.com/vi/x3j6YU5ECLw/maxresdefault.jpg",
-        "path": "./cognitivie-puzzle/"
     }
 ]
