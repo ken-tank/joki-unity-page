@@ -137,5 +137,15 @@
         "description": "",
         "thumbnail": "https://img.youtube.com/vi/YgIKYjZKeEQ/maxresdefault.jpg",
         "path": "./jejak-petualang-kuliner-nusantara/"
+    },
+    {
+        "id": "viroclash",
+        "name": "Viro Clash",
+        "platform": ["Windows", "Linux", "Android"],
+        "target-platform": ["WebGL"],
+        "input-control": ["Keyboard", "Mouse", "Tocuhscreen", "Gamepad"],
+        "description": "",
+        "thumbnail": "https://img.youtube.com/vi/rOL38Tb-VUQ/maxresdefault.jpg",
+        "path": "./viroclash/"
     }
 ]
