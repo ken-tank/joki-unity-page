@@ -147,5 +147,15 @@
         "description": "",
         "thumbnail": "https://img.youtube.com/vi/rOL38Tb-VUQ/maxresdefault.jpg",
         "path": "./viroclash/"
+    },
+    {
+        "id": "explore-cell",
+        "name": "Explore Cell",
+        "platform": ["Windows", "Android"],
+        "target-platform": ["Android"],
+        "input-control": ["Keyboard", "Mouse", "Tocuhscreen", "Gamepad"],
+        "description": "",
+        "thumbnail": "https://img.youtube.com/vi/xljX6RWp1PE/maxresdefault.jpg",
+        "path": "./explore-cell/"
     }
 ]
