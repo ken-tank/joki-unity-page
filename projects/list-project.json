@@ -155,7 +155,7 @@
         "target-platform": ["Android"],
         "input-control": ["Keyboard", "Mouse", "Tocuhscreen", "Gamepad"],
         "description": "",
-        "thumbnail": "https://img.youtube.com/vi/xljX6RWp1PE/maxresdefault.jpg",
+        "thumbnail": "https://img.youtube.com/vi/3KrgfEVFxlQ/maxresdefault.jpg",
         "path": "./explore-cell/"
     }
 ]
