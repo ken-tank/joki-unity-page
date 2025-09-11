@@ -157,5 +157,15 @@
         "description": "",
         "thumbnail": "https://img.youtube.com/vi/3KrgfEVFxlQ/maxresdefault.jpg",
         "path": "./explore-cell/"
+    },
+    {
+        "id": "explore-cell-2",
+        "name": "Explore Cell v2",
+        "platform": ["Windows", "Android", "WebGL"],
+        "target-platform": ["Android"],
+        "input-control": ["Keyboard", "Mouse", "Tocuhscreen", "Gamepad"],
+        "description": "",
+        "thumbnail": "https://img.youtube.com/vi/o-GSaymjQO8/maxresdefault.jpg",
+        "path": "./explore-cell-2/"
     }
 ]
