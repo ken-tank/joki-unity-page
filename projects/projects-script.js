@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
     var pageRoot = document.getElementById("page");
     var pageItem = pageRoot.children[0];
     var params = new URLSearchParams(window.location.search);
-    var parm_page = parseInt(params.get('page'));
+    var parm_page = params.get('page');
 
     fetch("/joki-unity-page/Components/project_list_item.html")
     .then(res => res.text())
@@ -69,11 +69,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         pageItem.hidden = true;
         
-        if (!params.has("page"))
+        if (!params.has("page") || isNaN(parm_page) || parseInt(parm_page) <= 0)
         {
             location.replace("/joki-unity-page/projects/?page=1");
             return;
         }
-        ShowPage(parm_page-1);
+        ShowPage(parseInt(parm_page)-1);
     });
 })
