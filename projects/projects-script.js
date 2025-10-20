@@ -14,6 +14,7 @@ function splitArrayIntoChunks(array, chunkSize) {
 function ShowPage(index)
 {
     if (currentIndexPage == index) return;
+    index = Math.min(index, splitted.length-1);
 
     var project_parent = document.getElementById("project-list");
     project_parent.innerHTML = "";
@@ -42,6 +43,8 @@ function ShowPage(index)
 document.addEventListener("DOMContentLoaded", () => {
     var pageRoot = document.getElementById("page");
     var pageItem = pageRoot.children[0];
+    var params = new URLSearchParams(window.location.search);
+    var parm_page = parseInt(params.get('page'));
 
     fetch("/joki-unity-page/Components/project_list_item.html")
     .then(res => res.text())
@@ -59,12 +62,18 @@ document.addEventListener("DOMContentLoaded", () => {
             var cloned = pageItem.cloneNode(true);
             cloned.innerHTML = text;
             cloned.addEventListener("click", callback => {
-                ShowPage(index);
+                //ShowPage(index);
+                location.assign("/joki-unity-page/projects/?page=" + (index + 1));
             });
             pageRoot.appendChild(cloned);
         }
         pageItem.hidden = true;
         
-        ShowPage(0);
+        if (!params.has("page"))
+        {
+            location.replace("/joki-unity-page/projects/?page=1");
+            return;
+        }
+        ShowPage(parm_page-1);
     });
 })
