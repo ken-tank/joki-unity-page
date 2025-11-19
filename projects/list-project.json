@@ -177,5 +177,15 @@
         "description": "",
         "thumbnail": "https://img.youtube.com/vi/Bdqs-Ra9zD0/maxresdefault.jpg",
         "path": "./explore-cell-3/"
+    },
+    {
+        "id": "landrise",
+        "name": "Landrise AR",
+        "platform": ["Android"],
+        "target-platform": ["Android"],
+        "input-control": ["Tocuhscreen", "Camera"],
+        "description": "Dalam Landrise, setiap pemain berperan sebagai Raja atau Ratu dari sebuah kerajaan yang bersaing untuk membangun kekuasaan dan merebut lahan utama, Landrise. Permainan dimulai dengan pembagian Character Card secara acak kepada setiap pemain, yang berisi identitas kerajaan serta tabungan awal sebagai modal permainan.",
+        "thumbnail": "https://img.youtube.com/vi/AxOLy534zgQ/sddefault.jpg",
+        "path": "./landrise/"
     }
 ]
